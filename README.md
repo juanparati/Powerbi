@@ -12,7 +12,7 @@ A PHP Library for the [PowerBI Rest API](https://docs.microsoft.com/en-gb/rest/a
 | Dataset | \Juanparati\PowerBI\Services\Dataset |
 | Group   | \Juanparati\PowerBI\Services\Group   |
 
-Please feel free to contribute and add more services.
+Please feel free to contribute with additional services.
 
 
 ## 3. How it works?
