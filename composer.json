@@ -1,0 +1,23 @@
+{
+    "name": "juanparati/powerbi",
+    "description": "A PowerBI API Interface for PHP",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan Lago",
+            "email": "juanparati@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Juanparati\\PowerBI\\": "src/"
+        }
+    }
+}
