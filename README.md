@@ -23,7 +23,7 @@ Please feel free to contribute with additional services.
         // Instatiate the client passing the auth token.     
         $client = new \Juanparati\PowerBI\Client($token);
         
-        // Create a group (workspace)
+        // Create a dataset
         $dataset_model              = new \Juanparati\PowerBI\Models\DatasetModel();
         $dataset_model->name        = 'My Dataset';
         $dataset_model->defaultMode = \Juanparati\PowerBI\Enums\DatasetModeEnum::PUSH;
@@ -124,7 +124,7 @@ There different ways to obtain the authentication token but this way is most use
 		$application_id     = '<The application id>';
 		$application_secret = '<The application secret>';
 		
-		$directory_id       = '<The azure tenan id>';
+		$directory_id       = '<The azure tenant id>';
 		
 		$user               = '<Admin e-mail or username used in the app registration process>';
 		$password           = '<Admin password used in the app registration process>';
@@ -172,7 +172,7 @@ This library doesn't take care about the [PowerBI API Restrictions](https://docs
 
 ## 6. Unit tests
 
-Unit tests are not mocked, so it means that request are done against the real PowerBI API. Never execute the unit tests against production account.
+Unit tests are not mocked, so it means that request are done against the real PowerBI API. Never execute the unit tests against a production account.
 
 In order to execute the tests the auth token should be added to the environment variable "POWERBI_AUTH_TOKEN":
 
