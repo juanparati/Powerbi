@@ -177,3 +177,6 @@ Unit tests are not mocked, so it means that request are done against the real Po
 In order to execute the tests the auth token should be added to the environment variable "POWERBI_AUTH_TOKEN":
 
         export POWERBI_AUTH_TOKEN=<Your token>
+
+## Supported by
+- [Matchbanker.fi](https://matchbanker.fi)
