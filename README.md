@@ -42,20 +42,20 @@ Please feel free to contribute with additional services.
             new \Juanparati\PowerBI\Models\ColumnModel(
             [
                 'name'     => 'second_column',
-                'dataType' => \Juanparati\PowerBI\Enums\DatatypesEnum::Int64
+                'dataType' => \Juanparati\PowerBI\Enums\DatatypesEnum::INT64
             ]),            
-        );
+        ];
                
         $table->columns = $columns;
         
         // Attach tables to dataset model
-        $dataset->tables = [$table];
+        $dataset_model->tables = [$table];
         
         // Create dataset.
         // 
         // Note: Use postDatasetInGroup method in case that dataset should be created in a different
         // workspace/group. 
-        $result = (new \Juanparati\PowerBI\Services\Dataset($client))->postDataset($dataset);
+        $result = (new \Juanparati\PowerBI\Services\Dataset($client))->postDataset($dataset_model);
         
                
         // Check if dataset was sucessfully created
