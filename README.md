@@ -5,7 +5,7 @@
 A PHP Library for the [PowerBI Rest API](https://docs.microsoft.com/en-gb/rest/api/power-bi/).
 
 
-## 2. Which services are implemented?
+## 2. Which services were implemented?
 
 | Service | Class                                |
 |---------|--------------------------------------|
