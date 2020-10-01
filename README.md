@@ -118,7 +118,7 @@ There different ways to obtain the authentication token but this way is most use
 2. Copy somewhere the "Application Id" and "Client secret"
 3. [Grant admin consent to the created application](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-user-consent#grant-admin-consent-when-registering-an-app-in-the-azure-portal) (Required for non-interactive authentication)
 4. Find the tenand ID (Directory ID) and copy it to somewhere (Azure Console -> Dashboard -> Azure Active Directory -> Properties -> Directory ID)
-5. Execute the following code (Note: [league/oauth2-server](https://github.com/thephpleague/oauth2-server) library is required):
+5. Execute the following code (Note: [league/oauth2-client](https://github.com/thephpleague/oauth2-client) library is required):
 
 		
 		$application_id     = '<The application id>';
