@@ -161,7 +161,7 @@ There different ways to obtain the authentication token but this way is most use
 		// Save token
 		file_put_contents($token_file, $token);
 
-        echo '🔑 Token saved in ' . $token_file);
+        echo '🔑 Token saved in ' . $token_file;
         
 
 
